@@ -41,7 +41,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={1}
             title="DnD Diagrams"
-            src="/works/react-dnd-screen.png"
+            src="./works/react-dnd-screen.png"
             description="A customizable React drag and drop NPM package for building interactive diagrams."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://www.npmjs.com/package/react-dnd-diagrams"
@@ -54,7 +54,7 @@ const FeaturedWorksSection = () => {
             idx={2}
             title="Project Time Estimate Calculator"
             description="Estimating time and cost to complete software or construction projects using Artificial Intelligence."
-            src="/works/project-estimate.png"
+            src="./works/project-estimate.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://projext-estimate-app.netlify.app/"
             isMobile={isMobile}
@@ -66,7 +66,7 @@ const FeaturedWorksSection = () => {
             idx={3}
             title="NSBM Student Enrolment System"
             description="The NSBM enrollment system is expected to store and maintain enrollment activities and records for all students in three faculties."
-            src="/works/nsbm-project.jpg"
+            src="./works/nsbm-project.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://github.com/tharindukumarasiri/Student-management-system-for-NSBM-university"
             isMobile={isMobile}

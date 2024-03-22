@@ -23,7 +23,7 @@ export const Experiences: {
     url: 'https://www.rhino-partners.com/',
     position: 'Senior Software Engineer',
     duration: 'April 2022 - Present',
-    logo: '/worked_at_logos/logo-rhino.png/',
+    logo: './worked_at_logos/logo-rhino.png/',
     roles: [
       <>A Singapore based company providing software solutions.</>,
       <>
@@ -72,7 +72,7 @@ export const Experiences: {
     url: 'https://singlife.com/en',
     position: 'Software Engineer',
     duration: 'April 2020 - December 2023',
-    logo: '/worked_at_logos/singlife-logo.png/',
+    logo: './worked_at_logos/singlife-logo.png/',
     roles: [
       <>
         Integrated new products and features from design to deployment for
@@ -96,7 +96,7 @@ export const Experiences: {
     url: 'https://dynalli.com/',
     position: 'Software Engineer',
     duration: 'July 2022 - Present',
-    logo: '/worked_at_logos/dynalli-logo.png/',
+    logo: './worked_at_logos/dynalli-logo.png/',
     roles: [
       <>Working as a Freelancer for this Norwegian company.</>,
       <>
@@ -116,7 +116,7 @@ export const Experiences: {
     url: 'https://www.linkedin.com/company/ustocktrade/',
     position: 'Software Engineer',
     duration: 'August 2019 - March 2022',
-    logo: '/worked_at_logos/ustocktrade-logo.png/',
+    logo: './worked_at_logos/ustocktrade-logo.png/',
     roles: [
       <>
         Developed and deployed a fully functional trading mobile application
