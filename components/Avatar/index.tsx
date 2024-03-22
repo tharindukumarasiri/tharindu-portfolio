@@ -2,7 +2,7 @@ import { Box, Image as ChkImage, SkeletonCircle } from '@chakra-ui/react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { avatarAnimation } from 'config/animations'
 
-const AvatarImages = '/tharindu_avatar.png'
+const AvatarImages = './tharindu_avatar.png'
 
 declare global {
   interface Window {
