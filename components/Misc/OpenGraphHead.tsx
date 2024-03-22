@@ -8,7 +8,7 @@ const OpenGraphHead = () => (
     />
     <meta property="og:title" content="Tharindu | Software Engineer" />
     <meta property="og:site_name" content="Tharindu Kumarasiri" />
-    <meta property="og:url" content="https://www.tharindu.github.io" />
+    <meta property="og:url" content="https://tharindukumarasiri.github.io" />
     <meta
       property="og:description"
       content="Hello! Its Tharindu Kumarasiri here. I am a humble Software Engineer"
@@ -16,7 +16,7 @@ const OpenGraphHead = () => (
     <meta property="og:type" content="profile" />
     <meta
       property="og:image"
-      content="https://www.tharindu.github.io/tharindu_avatar.png"
+      content="https://tharindukumarasiri.github.io/tharindu_avatar.png"
     ></meta>
   </Head>
 )
