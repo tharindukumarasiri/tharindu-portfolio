@@ -1,37 +1,12 @@
 import {
   Box,
-  Icon,
   Text,
   useBreakpointValue,
   useColorModeValue,
 } from '@chakra-ui/react'
-import { RiMouseLine } from 'react-icons/ri'
 import { motion, Variants, AnimatePresence } from 'framer-motion'
 import useScrollDirection, { ScrollDirection } from 'hooks/useScrollDirection'
 import { mobileBreakpointsMap } from 'config/theme'
-
-const scrollMoreVariants: Variants = {
-  initial: {
-    opacity: 0,
-    y: 50,
-  },
-  hidden: {
-    opacity: [0, 1],
-    transition: {
-      duration: 0.5,
-      delay: 1,
-      ease: 'easeIn',
-    },
-  },
-  bounce: {
-    y: [0, -18, 0],
-    transition: {
-      duration: 1.6,
-      ease: 'easeInOut',
-      loop: Infinity,
-    },
-  },
-}
 
 const emailVariants: Variants = {
   hidden: {
@@ -69,25 +44,6 @@ const ScrollMore = () => {
       right="3%"
       display={isMobile ? 'none' : 'block'}
     >
-      <AnimatePresence>
-        {[ScrollDirection.Initial, ScrollDirection.Up].includes(
-          scrollDirection
-        ) && (
-          <motion.div
-            initial="initial"
-            animate={['hidden', 'bounce']}
-            variants={scrollMoreVariants}
-          >
-            <Icon
-              w={6}
-              h={6}
-              as={RiMouseLine}
-              color="currentColor"
-              opacity="0.75"
-            />
-          </motion.div>
-        )}
-      </AnimatePresence>
       <AnimatePresence>
         {scrollDirection === ScrollDirection.Down && (
           <motion.div

@@ -10,6 +10,8 @@ import {
 } from '@chakra-ui/react'
 import {
   SiHtml5,
+  SiNodeDotJs,
+  SiMongodb,
   SiJavascript,
   SiTypescript,
   SiRedux,
@@ -102,7 +104,18 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             <ListIcon as={SiHtml5} color={'#E34F26'} fontSize="2em" />
             HTML
           </ListItem>
+          <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={SiNodeDotJs} color={'#68a063'} fontSize="2em" />
+            NodeJS
+          </ListItem>
+          <ListItem fontSize="small" display="flex" alignItems="center">
+            <ListIcon as={SiMongodb} color={'#3FA037'} fontSize="2em" />
+            MongoDB
+          </ListItem>
         </List>
+        <Text variant="emphasis" fontSize="smaller" textAlign="left">
+          And many more...
+        </Text>
         {/* <Box>
           <Text
             as="button"

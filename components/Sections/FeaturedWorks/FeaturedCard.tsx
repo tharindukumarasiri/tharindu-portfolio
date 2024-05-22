@@ -144,7 +144,7 @@ const FeaturedCard = ({
       objectFit="cover"
       objectPosition={objectPosition}
       loading="lazy"
-      opacity={0.75}
+      opacity={0.85}
       whileHover={variants.hover}
       whileTap={variants.tap}
       fallback={<Skeleton height={height} width="100%" />}
